@@ -4,4 +4,5 @@
 #
 # 05/16/24 - "Week 2 - Python - 2.1 Python Loops and More
 # 05/16/24 - "Week 2 - Python - 2.2 Import & Modules
+# 05/19/24 - "Week 2 - Python - 2.3 Data Structures
 #
