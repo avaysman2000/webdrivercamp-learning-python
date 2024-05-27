@@ -5,7 +5,7 @@ def max_value(d):
         return None
 
     max_key = None
-    max_value = float('-inf')  # Initialize max_value to negative infinity
+    max_value = float('-inf')
     
     for key, value in d.items():
         if isinstance(value, int) and value > max_value:
