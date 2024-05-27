@@ -1,12 +1,17 @@
 #!/usr/bin/python3
-def list_print(lst=[], i=0):
-
+def list_print(lst=None, i=0):
+ 
+    count = 0
     try:
-        print(lst[i])
-        return 1
-    except IndexError:
-        print("Index Error")
-        return 0
+        for element in lst:
+            print(element, end=" ")
+            count += 1
+            if count >= i:
+                break
+        print()
+    except:
+        pass
+    return count
 
 if __name__=="__main__":
     list_ = [1, 2, 3, 4, 5, 6, 7]
